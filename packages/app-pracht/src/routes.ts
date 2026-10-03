@@ -8,6 +8,11 @@ export const app = defineApp({
       render: 'ssr',
     }),
     route(
+      '/server-side-rendered-plain-links',
+      './routes/server-side-rendered-plain-links.tsx',
+      { id: 'server-side-rendered-plain-links', render: 'ssr' },
+    ),
+    route(
       '/server-side-rendered/:id',
       './routes/server-side-rendered-detail.tsx',
       {

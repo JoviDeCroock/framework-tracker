@@ -186,6 +186,7 @@
       "package": "starter-pracht",
       "buildScript": "build",
       "buildOutputDir": "dist",
+      "devServerPort": 3000,
       "measurements": [
         {
           "type": "install",
@@ -193,6 +194,10 @@
         },
         {
           "type": "build",
+          "runFrequency": 5
+        },
+        {
+          "type": "devServer",
           "runFrequency": 5
         },
         {
@@ -219,6 +224,9 @@
         },
         {
           "type": "ssrLoad"
+        },
+        {
+          "type": "ssrRouterLinkLoad"
         }
       ]
     }
