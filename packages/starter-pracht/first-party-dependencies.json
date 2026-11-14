@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "@pracht/adapter-node": "0.5.1",
-    "@pracht/core": "0.20.1"
+    "@pracht/adapter-node": "0.6.0",
+    "@pracht/core": "0.21.0"
   },
   "devDependencies": {
-    "@pracht/cli": "1.16.1",
-    "@pracht/vite-plugin": "0.15.1"
+    "@pracht/cli": "1.17.0",
+    "@pracht/vite-plugin": "0.21.0"
   }
 }
